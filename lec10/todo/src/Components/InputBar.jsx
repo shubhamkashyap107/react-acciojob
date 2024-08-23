@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import { v4 as uuidv4 } from 'uuid';
 
 const InputBar = ({tasks, setTasks}) => {
 
@@ -14,7 +15,7 @@ const InputBar = ({tasks, setTasks}) => {
 
           console.log(tasks)
          let newTodo = {
-          id : tasks.length + 1,
+          id : uuidv4(),
           task : todo
          } 
 

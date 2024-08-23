@@ -31,7 +31,7 @@ const TodoList = () => {
   return (
     <div className='mx-auto border w-1/3 flex flex-col items-center mt-10 p-2 rounded-2xl bg-gray-200'>
         <InputBar tasks={tasks} setTasks={setTasks}/>
-        <List tasks={tasks} />
+        <List tasks={tasks} setTasks={setTasks} />
     </div>
   )
 }
