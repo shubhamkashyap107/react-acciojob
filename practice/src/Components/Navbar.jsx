@@ -15,7 +15,7 @@ const Navbar = ({showSidebar, setShowSideBar}) => {
         <Link to={"/b"}>CompB</Link>
         <Link to={"/c"}>CompC</Link>
         <Link to={"/d"}>CompD</Link>
-        <input className='text-black' type="text" name="" id="" />
+        
     </div>
   )
 }
